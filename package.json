@@ -1,0 +1,16 @@
+{
+  "name": "yarn-dependency-tree-walker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src.js",
+  "scripts": {
+    "start": "node src.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "example": "node src.js yarn.lock @yarnpkg/lockfile@^1.1.0"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@yarnpkg/lockfile": "^1.1.0"
+  }
+}
